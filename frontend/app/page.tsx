@@ -20,7 +20,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        "https://groweasy-ai-csv-importer-60og.onrender.com/upload",
         formData,
         {
           headers: {
@@ -51,7 +51,7 @@ export default function Home() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/process",
+        "https://groweasy-ai-csv-importer-60og.onrender.com/process",
         {
           records: preview,
         }
