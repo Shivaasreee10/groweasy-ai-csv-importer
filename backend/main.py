@@ -8,8 +8,8 @@ from parser import parse_csv
 app = FastAPI(
     title="GrowEasy AI CSV Importer",
     version="1.0.0"
-)
 
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
